@@ -9,7 +9,7 @@ import { ProjectsComponent } from '../../components/projects/projects.component'
   standalone: true,
   imports: [HeaderComponent, KnowledgeComponent, ExperiencesComponent, ProjectsComponent],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent {
 
