@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "portfolio:build"
+            "buildTarget": "portfolio:build:production"
           }
         },
         "test": {
@@ -98,9 +98,16 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "buildTarget": "portfolio:build:production"
+            }
+          }
         }
       }
+    },
+    "cli": {
+      "analytics": false
     }
   },
   "cli": {
