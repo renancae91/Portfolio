@@ -101,16 +101,12 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "buildTarget": "portfolio:build:production"
-            }
           }
         }
+      }
       }
     },
     "cli": {
       "analytics": false
-    }
-  },
-  "cli": {
-    "analytics": false
   }
 }
