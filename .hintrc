@@ -5,8 +5,8 @@
   "hints": {
     "axe/structure": [
       "default"
-
     ],
-    "axe/text-alternatives": "off"
+    "axe/text-alternatives": "off",
+    "disown-opener": "off"
   }
 }
