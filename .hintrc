@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/structure": [
+      "default"
+
+    ],
+    "axe/text-alternatives": "off"
+  }
+}
