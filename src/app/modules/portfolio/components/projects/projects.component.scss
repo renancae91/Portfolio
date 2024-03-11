@@ -20,8 +20,9 @@
         gap: 20px;
 
         li {
-            flex: 20%;
-            width: 160px;
+            display: flex;
+            align-items: center;
+            width: 200px;
             height: 160px;
 
             button {
@@ -41,13 +42,15 @@
                     display: flex;
                     flex-direction: column;
 
-                    &:hover {
-                        color: var(--black);
-                    }
+                   
                 }
                 
                 &:hover {
                     background: var(--primary);
+
+                    p , img{
+                        filter: brightness(0%);
+                    }
                 }
             
             }
