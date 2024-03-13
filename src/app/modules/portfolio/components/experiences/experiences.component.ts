@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { IExperiences } from '../../interface/IExperiences.interface';
+import { ExperiencesConfig } from '../../models/experiences-config.model';
 
 @Component({
   selector: 'app-experiences',
@@ -9,20 +10,5 @@ import { IExperiences } from '../../interface/IExperiences.interface';
   styleUrl: './experiences.component.scss'
 })
 export class ExperiencesComponent {
-  public arrayExpirience = signal<IExperiences[]>([
-    {
-      summary: {
-        strong: 'Desenvolvedor de Softwares',
-        p: 'IBM | Out 2022 - Presente'
-      },
-      text: '<p>Desde outubro de 2022, atuo como estagiário em desenvolvimento de softwares na IBM, destacando-me nas áreas de front-end e back-end</p>'
-    },
-    {
-      summary: {
-        strong: 'Auxiliar Administrativo',
-        p: 'Universidade Estácio de Sá | Ago 2011 - presente'
-      },
-      text: '<p>Desde Agosto de 2011, atuo como auxiliar administrativo na Estácio de Sá, destacando-me nas áreas de atendimento e suporte ao cliente</p>'
-    },
-  ]);
+  public arrayExpirience = ExperiencesConfig.expiriences;
 }

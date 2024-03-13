@@ -15,7 +15,7 @@ export class DialogProjectsComponent implements OnInit {
   constructor(
     private _dialogRef: MatDialogRef<DialogProjectsComponent>,
     @Inject(MAT_DIALOG_DATA) private _data: IProjects
-  ) {}
+  ) { }
   public getData = signal<IProjects | null>(null);
   ngOnInit(): void {
     this.getData.set(this._data);

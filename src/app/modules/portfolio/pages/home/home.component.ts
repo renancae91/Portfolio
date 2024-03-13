@@ -10,11 +10,11 @@ import { EducationComponent } from '../../components/education/education.compone
   selector: 'app-home',
   standalone: true,
   imports: [
-    HeaderComponent, 
-    KnowledgeComponent, 
-    ExperiencesComponent, 
-    ProjectsComponent, 
-    CertificateComponent, 
+    HeaderComponent,
+    KnowledgeComponent,
+    ExperiencesComponent,
+    ProjectsComponent,
+    CertificateComponent,
     EducationComponent
   ],
   templateUrl: './home.component.html',

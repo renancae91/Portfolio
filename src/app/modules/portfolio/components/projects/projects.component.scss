@@ -42,20 +42,22 @@
                     display: flex;
                     flex-direction: column;
 
-                   
+
                 }
-                
+
                 &:hover {
                     background: var(--primary);
 
-                    p , img{
+                    p,
+                    img {
                         filter: brightness(0%);
                     }
                 }
-            
+
             }
         }
     }
+
     @media (max-width: 750px) {
         ul {
             li {
