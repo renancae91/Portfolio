@@ -13,7 +13,7 @@ export class ProjectsConfig {
       links: [
         {
           name: 'conheça o projeto',
-          href: 'https://github.com/renancae91/NodejsAPIPessoas'
+          href: 'https://github.com/renancae91?tab=repositories'
         },
       ],
     },
