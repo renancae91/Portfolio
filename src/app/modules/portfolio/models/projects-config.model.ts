@@ -12,7 +12,7 @@ export class ProjectsConfig {
       description: '<p>Em meu GitHub você pode encontrar alguns projetos, como esse que você está visualizando agora, e também alguns projetos que desenvolvo no meu tempo livre,  lá você pode dar uma olhada em meu código e conferir a arquitetura, framework e design pattern que eu utilizo para desenvolver aplicações.</p>',
       links: [
         {
-          name: 'conheça o projeto',
+          name: 'conheça meus projetos',
           href: 'https://github.com/renancae91?tab=repositories'
         },
       ],
